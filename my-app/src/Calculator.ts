@@ -1,16 +1,9 @@
-class Calculator{
-
-    private principle: number;
-    private interestRate: number;
-    private timePeriod: number;
-    
-    
-    /*
+/*
          Calculates payment per month using the principle, yearly interest rate, and years as inputs
          Unit conversions are done for interestRate(yearly percent to monthly decimal) and the timePeriod(years to months)
     */
     
-    function monthlyMortagePayment (principle:number, interestRate:number, timePeriod:number){
+    export function monthlyMortagePayment (principle:number, interestRate:number, timePeriod:number){
         let m = 0;
         let roundedFinal = 0;
         interestRate = interestRate/(12*100);
@@ -19,9 +12,4 @@ class Calculator{
         roundedFinal = Math.round(m * 100) / 100
         return roundedFinal;
         
-    }
-    
-    
-    
-    
     }
