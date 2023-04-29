@@ -3,7 +3,7 @@
          Unit conversions are done for interestRate(yearly percent to monthly decimal) and the timePeriod(years to months)
     */
     
-    export function monthlyMortagePayment (principle:number, interestRate:number, timePeriod:number){
+    export function monthlyMortgagePayment (principle:number, interestRate:number, timePeriod:number){
         let m = 0;
         let roundedFinal = 0;
         interestRate = interestRate/(12*100);
