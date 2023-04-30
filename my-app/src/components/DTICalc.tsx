@@ -34,7 +34,7 @@ export function DTICalc(): JSX.Element {
 
     return (
         <><h3>DTI Calculator</h3>
-        <div style={{ border: "1px solid#111", padding:"10px", width:"900px"}} className="calculator">
+        <div style={{ border: "2px dashed grey", padding: "10px", width: "800px" }} className="calculator">
             <Form.Group>
                 <Form.Label>Enter Monthly Rent: </Form.Label>
                 <Form.Control onChange={updateRent} />

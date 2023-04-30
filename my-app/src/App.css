@@ -51,7 +51,7 @@
   flex-direction: row;
 }
 
-typeHeader {
+.typeHeader {
   align-items: left;
 }
 
