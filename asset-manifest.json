@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/henhacks2023loancalculator/static/css/main.073c9b0a.css",
-    "main.js": "/henhacks2023loancalculator/static/js/main.9b1081d8.js",
+    "main.css": "/henhacks2023loancalculator/static/css/main.ba60c9ae.css",
+    "main.js": "/henhacks2023loancalculator/static/js/main.5b25975f.js",
     "static/js/787.28cb0dcd.chunk.js": "/henhacks2023loancalculator/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/henhacks2023loancalculator/index.html",
-    "main.073c9b0a.css.map": "/henhacks2023loancalculator/static/css/main.073c9b0a.css.map",
-    "main.9b1081d8.js.map": "/henhacks2023loancalculator/static/js/main.9b1081d8.js.map",
+    "main.ba60c9ae.css.map": "/henhacks2023loancalculator/static/css/main.ba60c9ae.css.map",
+    "main.5b25975f.js.map": "/henhacks2023loancalculator/static/js/main.5b25975f.js.map",
     "787.28cb0dcd.chunk.js.map": "/henhacks2023loancalculator/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.9b1081d8.js"
+    "static/css/main.ba60c9ae.css",
+    "static/js/main.5b25975f.js"
   ]
 }
