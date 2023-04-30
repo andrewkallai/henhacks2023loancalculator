@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/henhacks2023loancalculator/static/css/main.ba60c9ae.css",
-    "main.js": "/henhacks2023loancalculator/static/js/main.878be90f.js",
+    "main.css": "/henhacks2023loancalculator/static/css/main.88374390.css",
+    "main.js": "/henhacks2023loancalculator/static/js/main.d368c4a2.js",
     "static/js/787.28cb0dcd.chunk.js": "/henhacks2023loancalculator/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/henhacks2023loancalculator/index.html",
-    "main.ba60c9ae.css.map": "/henhacks2023loancalculator/static/css/main.ba60c9ae.css.map",
-    "main.878be90f.js.map": "/henhacks2023loancalculator/static/js/main.878be90f.js.map",
+    "main.88374390.css.map": "/henhacks2023loancalculator/static/css/main.88374390.css.map",
+    "main.d368c4a2.js.map": "/henhacks2023loancalculator/static/js/main.d368c4a2.js.map",
     "787.28cb0dcd.chunk.js.map": "/henhacks2023loancalculator/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba60c9ae.css",
-    "static/js/main.878be90f.js"
+    "static/css/main.88374390.css",
+    "static/js/main.d368c4a2.js"
   ]
 }
