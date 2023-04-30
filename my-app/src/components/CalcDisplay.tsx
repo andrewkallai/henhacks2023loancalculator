@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import { monthlyMortgagePayment } from "../interfaces/Calculator";
 
-export function CalcDisplay (): JSX.Element {
+export function PDLoanCalc (): JSX.Element {
     const [principle, setPrinciple] = useState<number>(0.0);
     const [interest, setInterest] = useState<number>(0.0);
     const [period, setPeriod] = useState<number>(0.0);
@@ -22,23 +22,23 @@ export function CalcDisplay (): JSX.Element {
     }
     
     return(
-    <div>
+    <div style={{border: "2px dashed grey", padding: "10px", width: "800px"}} className="calculator">
         <Form.Group>
-            <Form.Label>Enter Principle:</Form.Label>
+            <Form.Label>Enter Principal Amount: </Form.Label>
             <Form.Control onChange={updatePrinciple}/>
         </Form.Group>
         <Form.Group>
-            <Form.Label>Enter Interest:</Form.Label>
+            <Form.Label>Enter Interest Rate in %: </Form.Label>
             <Form.Control onChange={updateInterest}/>
         </Form.Group>
         <Form.Group>
-            <Form.Label>Enter Period:</Form.Label>
+            <Form.Label>Enter Time Period in Years: </Form.Label>
             <Form.Control onChange={updatePeriod}/>
         </Form.Group>
         <Button onClick={updateResult}>
             Calculate
         </Button>
-        <div>RESULT: {result}</div>
+        <div>Monthly Payment Amount: <span style={{color: "lime"}}>${result}</span></div>
     </div>
     );
 }
