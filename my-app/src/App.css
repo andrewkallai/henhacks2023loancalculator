@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.calcDisplayStyle {
+  text-align: center;
+  margin-left: "50px";
+}
+
+.regDisplay {
+  background-color: #282c34;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  flex-direction: row;
+}
+
+typeHeader {
+  align-items: left;
+}
+
+.leftCol {
+  width: 50%;
+}
+
+.rightCol {
+  width: 50%;
+}
